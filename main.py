@@ -45,7 +45,7 @@ class Button:
 
         # if yes is clicked load screen with image
         if self.james_clicked:
-            james = pygame.image.load('james.png').convert_alpha()
+            james = pygame.image.load('success.png').convert_alpha()
             screen.blit(james, (0, 0))
 
             # moves yes and no buttons out of the way
